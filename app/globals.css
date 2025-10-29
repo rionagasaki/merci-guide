@@ -12,4 +12,40 @@ body {
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif;
+  background-color: #f9fafb;
+}
+
+/* Notion content wrapper */
+.notion {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* モバイル対応 */
+@media (max-width: 768px) {
+  .notion {
+    padding: 1rem 0.75rem;
+  }
+
+  /* Notion内のテーブルをスクロール可能に */
+  .notion-table {
+    overflow-x: auto;
+  }
+
+  /* 画像の最大幅を調整 */
+  .notion-image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* カバー画像を非表示（カスタムヘッダーを使用） */
+.notion-page-cover {
+  display: none;
+}
+
+/* ページアイコンを非表示 */
+.notion-page-icon-wrapper {
+  display: none;
 }

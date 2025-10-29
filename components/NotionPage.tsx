@@ -38,11 +38,11 @@ export function NotionPage({
   return (
     <NotionRenderer
       recordMap={recordMap}
-      fullPage={true}
+      fullPage={false}
       darkMode={false}
       showTableOfContents={true}
       rootPageId={rootPageId}
-      disableHeader={false}
+      disableHeader={true}
       components={{ Code, Equation, Pdf, Modal }}
     />
   );
