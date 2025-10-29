@@ -15,6 +15,11 @@ body {
   background-color: #f9fafb;
 }
 
+/* Main content area - avoid header overlap */
+main {
+  padding-top: 0;
+}
+
 /* Notion content wrapper */
 .notion {
   max-width: 900px;

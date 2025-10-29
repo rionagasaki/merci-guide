@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full bg-white border-b border-gray-200">
+    <header className="w-full bg-white border-b border-gray-200">
       <div className="w-full px-4 sm:px-6 lg:px-8 py-3">
         <Link href="/" className="block w-full">
           <div className="relative w-full" style={{ aspectRatio: '4 / 1' }}>
