@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import 'react-notion-x/src/styles.css'
 import './globals.css'
-import { Header } from '../components/Header'
 
 export const metadata: Metadata = {
   title: 'Merci Docs',
@@ -38,10 +37,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body>
-        <Header />
-        <main>{children}</main>
-      </body>
+      <body>{children}</body>
     </html>
   )
 }
